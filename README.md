@@ -1,4 +1,3 @@
-<img width="917" height="650" alt="Communication" src="https://github.com/user-attachments/assets/868f347c-f4aa-49d5-b7cc-cda7b0a219e2" /># Library-Management-System
 # Reg No:21225040159
 # Name:Johan Renish A
 # Date:08-09-26
