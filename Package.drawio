@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="roles-diagram" name="Roles Diagram">
+    <mxGraphModel dx="1201" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mE6ccBV3APcjT0joiaST-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="45" x="575" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="mE6ccBV3APcjT0joiaST-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="45" x="115" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="mE6ccBV3APcjT0joiaST-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="45" x="595" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mE6ccBV3APcjT0joiaST-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="45" x="135" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="student" parent="1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;rounded=0;" value="STUDENT" vertex="1">
+          <mxGeometry height="50" width="170" x="135" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="librarian" parent="1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;rounded=0;" value="LIBRARIAN" vertex="1">
+          <mxGeometry height="50" width="140" x="595" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="staff" parent="1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;rounded=0;" value="STAFF" vertex="1">
+          <mxGeometry height="50" width="190" x="115" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="admin" parent="1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;rounded=0;" value="ADMIN" vertex="1">
+          <mxGeometry height="50" width="180" x="575" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="student_to_librarian" edge="1" parent="1" source="student" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=3 3;endArrow=open;endFill=0;strokeWidth=1;" target="librarian" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="staff_to_librarian" edge="1" parent="1" source="staff" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=3 3;endArrow=open;endFill=0;strokeWidth=1;" target="librarian" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="librarian_to_admin" edge="1" parent="1" source="librarian" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=3 3;endArrow=open;endFill=0;strokeWidth=1;" target="admin" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
